@@ -85,18 +85,18 @@ const scroll = () => {
                 opacity: 0
             },
                 {
-                    duration: 0.03,
+                    duration: 0.01,
                     innerHTML: () => lettersAndSymbols[Math.floor(Math.random() * lettersAndSymbols.length)],
                     repeat: 1,
                     repeatRefresh: true,
                     opacity: 1,
-                    repeatDelay: 0.03,
-                    delay: (position + 1) * 0.18,
+                    repeatDelay: 0.01,
+                    delay: (position + 1) * 0.02,
                     onComplete: () => gsap.set(char, { innerHTML: initialHTML, delay: 0.03 }),
                     scrollTrigger: {
                         trigger: title,
-                        start: 'top bottom',
-                        end: 'bottom bottom',
+                        start: 'top 100%',
+                        end: 'bottom 0%',
                         toggleActions: "play resume resume reset",
                         onEnter: () => gsap.set(char, { opacity: 0 })
                     }
