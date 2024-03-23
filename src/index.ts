@@ -93,8 +93,8 @@ async function setupViewer(){
     viewer.scene.activeCamera.setCameraOptions({controlsEnabled: false})
 
     if (isMobile){
-        position.set(-1.26, -1.75, 15.57)
-        target.set(-0.082, -1.10, -0.26)
+        position.set(-1.26, -1.75, 10.57)
+        target.set(-0.082, -1.10, -0.16)
         camera.setCameraOptions({ fov: 40 })
     }
 
@@ -134,7 +134,7 @@ async function setupViewer(){
 
         // LAST SECTION
 
-        .to(position, {x: isMobile ? -6.71 : 4.7, y: isMobile ? 4.95 : 1.25, z: isMobile ? 3.71 : -3.06,
+        .to(position, {x: isMobile ? -7.50 : 4.7, y: isMobile ? 0.38 : 1.25, z: isMobile ? 6.35 : -3.06,
             scrollTrigger: {
                 trigger: ".third",
                 start:"top bottom",
@@ -142,7 +142,7 @@ async function setupViewer(){
                 immediateRender: false
         }, onUpdate})
 
-        .to(target, {x: isMobile ? -0.12 : 0.13, y: isMobile ? -1.58 : -1.08 , z: isMobile ? -0.01 :1.01,
+        .to(target, {x: isMobile ? -0.18 : 0.13, y: isMobile ? -1.79 : -1.08 , z: isMobile ? 0.04 :1.01,
             scrollTrigger: {
                 trigger: ".third",
                 start:"top bottom",
