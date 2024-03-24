@@ -127,6 +127,7 @@ body {
   padding: 70px;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .section--fourth--button {
@@ -154,7 +155,7 @@ body {
   padding: 5%;
   background-color: black;
   z-index: 20;
-  position: absolute;
+  position: relative;
 }
 
 .footer--first--section {
