@@ -1,8 +1,4 @@
 # Threejs + GSAP + WEBGi
-## 100% Free Course
-This is a template used in my fast course "building scrolable pages with ScrollTrigger and Threejs" for a vanilla (no ui-framework) project with webgi engine in typescript using parcel bundler.
-
-⚡️ Live Link: [http://drill-webgi-tutorial.vercel.app](http://drill-webgi-tutorial.vercel.app)
 
 <a href="http://drill-webgi-tutorial.vercel.app"><img src="assets/images/preview.jpg" style="border: 1px solid black"></a>
 
